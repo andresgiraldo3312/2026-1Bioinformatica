@@ -83,7 +83,7 @@ qqline(residuals(anova_factorial), col = "blue", lwd = 2)
 #Homocedasticidad:
 #Usamos la prueba de Levene para verificar si las varianzas son homogéneas.
 #Prueba de homocedasticidad
-leveneTest(MIC ~ hospitales * bacterias, data = data)
+leveneTest(mic ~ hospitales * bacterias, data = data)
 
 #El valor de p es mayor que 0.05, se corrobora que las varianzas son homogéneas.
 #Se puede evaluar este atributo de manera gráfica:
