@@ -10,3 +10,5 @@ for(i in listaDeSecuencias){
         print("secuencia encontrada")
     }
 }
+
+print(s)
